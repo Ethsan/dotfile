@@ -23,7 +23,7 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
+vim.opt.signcolumn = "yes" -- force diagnostic open
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
@@ -35,7 +35,7 @@ local autocmd = vim.api.nvim_create_autocmd
 
 augroup('Indent', { clear = true } )
 autocmd('Filetype', {
-	group = 'Indent',
-	pattern = { 'python', 'lua', 'pascal' },
-	command = 'setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab',
+    group = 'Indent',
+    pattern = { 'python', 'lua', 'pascal' },
+    command = 'setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab',
 })
