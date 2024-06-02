@@ -25,7 +25,7 @@ require("lazy").setup({
         end,
     },
     -- treesitter
-    { "nvim-treesitter/nvim-treesitter", config = true },
+    "nvim-treesitter/nvim-treesitter",
 
     -- lsp
     "williamboman/mason.nvim",
@@ -87,3 +87,4 @@ require("lazy").setup({
 
 require("set")
 require("lsp")
+require("treesitter")

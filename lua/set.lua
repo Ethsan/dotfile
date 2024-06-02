@@ -33,9 +33,13 @@ vim.opt.colorcolumn = "80"
 local augroup = vim.api.nvim_create_augroup
 local autocmd = vim.api.nvim_create_autocmd
 
-augroup('Indent', { clear = true } )
+augroup('Indent', { clear = true })
 autocmd('Filetype', {
     group = 'Indent',
     pattern = { 'python', 'lua', 'pascal' },
     command = 'setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab',
+})
+
+vim.filetype.add({
+    pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
 })
