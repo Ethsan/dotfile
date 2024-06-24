@@ -17,6 +17,6 @@ return {
   { "bufferline.nvim", enabled = false },
   -- disable mini pairs
   { "mini.pairs", enabled = false },
--- disable vim-illuminate
-{ "vim-illuminate", enabled = false },
+  -- disable vim-illuminate
+  { "vim-illuminate", enabled = false },
 }
