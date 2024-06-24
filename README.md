@@ -1,3 +1,3 @@
-### My nvim init.lua
+# My configuration for LazyVim
 
-Just some config
+Base configuration for LazyVim with less plugins and more native features.
