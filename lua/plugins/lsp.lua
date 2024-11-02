@@ -4,5 +4,14 @@ return {
     document_highlight = {
       enabled = false,
     },
+    servers = {
+      ltex = {
+        settings = {
+          ltex = {
+            language = "en",
+          },
+        },
+      },
+    },
   },
 }
