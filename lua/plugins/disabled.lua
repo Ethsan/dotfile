@@ -19,4 +19,6 @@ return {
   { "mini.pairs", enabled = false },
   -- disable vim-illuminate
   { "vim-illuminate", enabled = false },
+  -- disable noice
+  { "noice.nvim", enabled = false },
 }

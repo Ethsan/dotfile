@@ -8,7 +8,7 @@ return {
       ltex = {
         settings = {
           ltex = {
-            language = "en",
+            language = "fr",
           },
         },
       },

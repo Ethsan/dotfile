@@ -20,9 +20,13 @@ opt.autowrite = false
 
 opt.cursorline = false
 
+vim.g.spell = false
+
 vim.g.autoformat = false
 
 -- see https://github.com/tree-sitter-grammars/tree-sitter-hyprlang
 vim.filetype.add({
   pattern = { [".*/hypr/.*%.conf"] = "hyprlang" },
 })
+
+vim.g.snacks_animate = false
